@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact - Your Name</title>
+    <meta name="description" content="Send Your Name a message.">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/theme.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="index.html">Your Name</a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="theme-toggle" aria-pressed="false">
+        <img src="images/moon.svg" alt="" width="24" height="24">
+        <span class="visually-hidden">Dark theme</span>
+      </button>
+    </header>
+    <main>
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required
+                  aria-describedby="message-error"></textarea>
+        <p id="message-error"></p>
+
+        <button type="submit">Prepare email</button>
+      </form>
+      <p id="form-status" role="status"></p>
+      <p id="message-copy"></p>
+      <a id="mail-link" hidden>Send it from your email app</a>
+    </main>
+    <footer>
+      <p>© Your Name</p>
+    </footer>
+  </body>
+</html>

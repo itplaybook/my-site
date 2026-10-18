@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Budget Tracker",
+    "description": "Adds up a month of spending from a spreadsheet.",
+    "tags": ["javascript"],
+    "url": "https://example.com/budget"
+  },
+  {
+    "title": "Recipe Cards",
+    "description": "A responsive page of recipes that prints cleanly.",
+    "tags": ["html", "css"],
+    "url": "https://example.com/recipes"
+  },
+  {
+    "title": "Weather Now",
+    "description": "Shows today's forecast for any city.",
+    "tags": ["javascript", "api"],
+    "url": "https://example.com/weather"
+  }
+]
